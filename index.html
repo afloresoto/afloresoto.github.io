@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+
+<link href="fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+	<header id="header-container">
+		<div class="container">
+	      <div class="col-md-6 borde1">
+	      	<h1>DATAFASTSHOP</h1>
+	      </div>
+	      <div class="col-md-6 text-xs-center">
+	      <button class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="#navMenu">
+	      	&#9776;
+	      </button>
+	      	<a href="#" class="login hidden-xs-down text-uppercase font-weight-bold">Login</a>
+	      </div>
+	    </div>	
+	</header>
+	<!--Menu-->	
+	<div id="menu-container">
+		<nav id="navMenu" class="navbar-toggleable-xs navbar navbar-light collapse">
+			<div class="container"> 
+				<div class="row">
+					<div class="col-xs-10 col-xs-offset-2 col-md-4 col-md-offset-0">
+						<ul class="nav navbar-nav">
+							<li class="nav-item active text-xs-center">
+								<a href="#" class="nav-link">Inicio</a>
+							</li>
+							<li class="nav-item text-xs-center">
+								<a href="#" class="nav-link">Catalogo</a>
+							</li>
+							<li class="nav-item text-xs-center">
+								<a href="#" class="nav-link">Contacto</a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="col-xs-12 col-md-6 offset-md-2">
+						<form>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Encontro lo que buscaba?" />
+								<span class="input-group-btn">
+									<button class="btn" type="button">
+										<span class="hidden-sm-down">Buscar</span>
+										<i class="fa fa-search"></i>
+									</button>
+								</span>							
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>	
+	<!--/Menu-->
+	<!-- Carousel-->
+	<div id="carousel-container">
+		<div id="productoCarousel" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#productoCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#productoCarousel" data-slide-to="1"></li>
+		    <li data-target="#productoCarousel" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner" role="listbox">
+		    <div class="carousel-item active">
+		      <img src="img/producto.svg" alt="Primer Producto">
+		      <div class="carousel-caption">
+			    <h4>Producto 1</h4>
+			    <p class="hidden-sm-down">Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio</p>
+			  </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/producto.svg" alt="Segundo Producto">
+		      <div class="carousel-caption">
+			    <h4>Producto 2</h4>
+			    <p class="hidden-sm-down">Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio</p>
+			  </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/producto.svg" alt="Tercer Producto">
+		      <div class="carousel-caption">
+			    <h4>Producto 2</h4>
+			    <p class="hidden-sm-down">Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio</p>
+			  </div>
+		    </div>
+		  </div>
+		  <a class="left carousel-control" href="#productoCarousel" role="button" data-slide="prev">
+		    <span class="icon-prev" aria-hidden="true"></span>
+		    <span class="sr-only">Anterior</span>
+		  </a>
+		  <a class="right carousel-control" href="#productoCarousel" role="button" data-slide="next">
+		    <span class="icon-next" aria-hidden="true"></span>
+		    <span class="sr-only">Siguiente</span>
+		  </a>
+		</div>
+	</div>
+
+	<!-- /Carousel-->
+
+
+</body>
+</html>

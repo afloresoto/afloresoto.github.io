@@ -1,0 +1,47 @@
+#header-container{
+background-color: green;
+color:white;
+
+}
+.verCol{
+border:1px solid blue;
+text-align: right;
+
+}
+
+#menu-container{
+
+	background-color: #f7f7f9;
+}
+.btn-tes.btn-tes{
+
+	background-color: red;
+	color:white;
+}
+
+.btn-tes.btn-tes:hover{
+
+	background-color: #8ab542;
+}
+.form-control:focus{
+	border-color: red;
+}
+
+.borde1{
+	border:1px solid red;
+
+}
+
+.borde2{
+	border: 1px solid blue;
+	text-align: right;
+
+}
+#header-container .login{
+	color:white;
+}
+img{
+	margin: 0 20%;
+	background-color: green;
+}
+
