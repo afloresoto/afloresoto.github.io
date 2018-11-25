@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-ul{
+	list-style-type:none;
+	
+	}
+	
+.menu-li{
+	display:inline-block;
+	width:25%;
+	
+}
+
+.menu-a{
+	text-decoration:none;
+	
+	}
+#menu-container{
+	width:80%;
+	
+	}
+
